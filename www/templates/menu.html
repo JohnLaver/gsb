@@ -1,14 +1,14 @@
-<ion-side-menus enable-menu-with-back-views="false">
-  <ion-side-menu-content>
+<ion-side-menus >
+  <ion-side-menu-content drag-content="false">
+  
     <ion-nav-bar class="bar-stable">
-      <ion-nav-back-button>
-      </ion-nav-back-button>
+      
     </ion-nav-bar>
     <ion-nav-view name="menuContent"></ion-nav-view>
   </ion-side-menu-content>
 
   <ion-side-menu side="right">
-    <ion-header-bar class="bar-stable">
+    <ion-header-bar class="bar-stable bar-dark">
       <h1 class="title">Left</h1>
     </ion-header-bar>
     <ion-content>
@@ -18,6 +18,11 @@
         </ion-item>
         <ion-item nav-clear menu-close href="#/app/search">
           Search
+        </ion-item>
+		 <ion-item">
+         <div class="item item-divider item-positive">
+    Candy Bars
+  </div>
         </ion-item>
         <ion-item nav-clear menu-close href="#/app/browse">
           Browse
